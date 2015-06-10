@@ -1,0 +1,32 @@
+{
+  "name": "grunt-alive",
+  "version": "1.0.0",
+  "description": "Run multiple applications as a grunt task",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v-braun/grunt-alive.git"
+  },
+  "author": {
+    "name": "Viktor Braun",
+    "email": "v-braun@live.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v-braun/grunt-alive/issues"
+  },
+  "keywords": [
+    "grunt",
+    "node",
+    "server",
+    "development",
+    "gruntplugin",
+    "express"
+  ],
+  "homepage": "https://github.com/v-braun/grunt-alive",
+  "dependencies": {
+    "lodash": "^3.9.3"
+  }
+}
