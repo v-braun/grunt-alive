@@ -7,7 +7,7 @@
 
 ## Gruntfile.js Example
 
- ```javascript  
+```javascript
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
       
@@ -52,24 +52,24 @@
 ## Gruntfile.js example with multiple applications
 
 ```javascript
-      alive:{
-        frontend: {
-          cmd: 'node',
-          args: ['--debug', './bin/www'],
-          opts: {
-            stdio: 'inherit',
-            env: { NODE_ENV: 'development'}
-          }
-        },
-        backend: {
-          cmd: 'node',
-          args: ['--debug', './bin/backend'],
-          opts: {
-            stdio: 'inherit',
-            env: { NODE_ENV: 'development'}
-          }
+    alive:{
+      frontend: {
+        cmd: 'node',
+        args: ['--debug', './bin/www'],
+        opts: {
+          stdio: 'inherit',
+          env: { NODE_ENV: 'development'}
+        }
+      },
+      backend: {
+        cmd: 'node',
+        args: ['--debug', './bin/backend'],
+        opts: {
+          stdio: 'inherit',
+          env: { NODE_ENV: 'development'}
         }
       }
+    }
 ```
 
 
